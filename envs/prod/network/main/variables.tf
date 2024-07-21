@@ -11,6 +11,10 @@ variable "azs" {
     public_cidr  = "172.31.0.0/20"
     private_cidr = "172.31.48.0/20"
     },
+    c = {
+      public_cidr  = "172.31.16.0/20"
+      private_cidr = "172.31.64.0/20"
+    }
   }
 }
 variable "enable_nat_gateway" {
